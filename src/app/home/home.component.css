@@ -1,6 +1,67 @@
+.image{
+    border: 1px solid gray;
+    height: 330px;
+    width: 592px;
+    -webkit-animation-name: background;
+    -webkit-animation-duration:5s;
+    -webkit-animation-direction: alternate;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+}
+@-webkit-keyframes background {
+    0% {
+      background-image: url('/assets/images/image.jpeg');
+    }
+    50% {
+      background-image: url('/assets/images/image1.jpeg');
+    }
+    100% {
+      background-image: url('/assets/images/image2.jpeg');
+    }
+  }
+.navigationBar.container
+{
+    background-color:bisque;
+    padding:15px;
+    border-radius: 10px;
+}
+.col-sm-4{
+    text-align:center;
+}
+.Introduction{
+    color:bisque;
+    text-align: center;
+}
+.About{
+    color:bisque;
+    text-align: center;
+}
+.Contact{
+    color:bisque;
+    text-align: center;
+}
+hr{
+    color:bisque;
+}
 .wrap{
     background-color: black;
+    background-size:cover;
+    width: 100vw;
+    height: 80vh;
 }
-.navigation{
-    background-color:bisque;
+.image{
+    background-color:blueviolet;
+    background-size:cover;
+    width: 100vw;
+    height: 50vh;
+}
+.btn-primary{
+    color:black;
+    background-color: bisque;
+    border: none;
+    width: 200px;
+}
+.btn-primary:hover{
+    box-shadow: 0px 0px 10px 10px rgba(111, 62, 3, 0.16);
+    background-color: rgba(111, 62, 3, 0.16);
 }
