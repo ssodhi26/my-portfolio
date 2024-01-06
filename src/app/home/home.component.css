@@ -1,5 +1,4 @@
 .image{
-    border: 1px solid gray;
     height: 330px;
     width: 592px;
     -webkit-animation-name: background;
@@ -19,26 +18,25 @@
       background-image: url('/assets/images/image2.jpeg');
     }
   }
-.navigationBar.container
+.navbar
 {
     background-color:bisque;
     padding:15px;
-    border-radius: 10px;
+    border-radius: 20px;
+    width:65%;
+    height:65px;
+    margin-left:20%;
+    margin-right:60%;
+    display:flex;
 }
-.col-sm-4{
-    text-align:center;
+.navbar-nav{
+    flex-direction: row;
+    margin-right: auto!important;
 }
-.Introduction{
-    color:bisque;
-    text-align: center;
-}
-.About{
-    color:bisque;
-    text-align: center;
-}
-.Contact{
-    color:bisque;
-    text-align: center;
+.nav-item{
+    align-items: center;
+    margin-right: 50px;
+    margin-left: 100px;
 }
 hr{
     color:bisque;
@@ -65,3 +63,12 @@ hr{
     box-shadow: 0px 0px 10px 10px rgba(111, 62, 3, 0.16);
     background-color: rgba(111, 62, 3, 0.16);
 }
+img {
+    border-radius: 50%;
+    height:300px;
+    width: 230px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 70px;
+  }

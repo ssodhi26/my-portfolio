@@ -1,34 +1,30 @@
 <div class="image">
+    <img src="/assets/images/display.jpeg">
 </div>
 <div class="wrap">
-    <section class="navigation">
-        <div class="navigationBar container">
-            <div class=row>
-                <div class="col-sm-4">
-                    <button class="btn btn-primary intro">Introduction</button>
-                </div>
-                <div class="col-sm-4">
-                    <button class="btn btn-primary abt">About</button>
-                </div>
-                <div class="col-sm-4">
-                    <button class="btn btn-primary cntct">Contact</button>
-                </div>
-            </div>
-        </div> 
-    </section>
+    
+            <nav class="navbar">
+                <ul class="nav navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Introduction</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+ 
+
+    
     <div class="container">
-        <section class="Introduction">
-            <p>Hello! My Name is Shaurya Sodhi.</p>
-            <p>Welcome to my Portfolio!</p>
-        </section>
+        <app-introduction></app-introduction>
         <hr>
-        <section class="About">
-            <app-about></app-about>
-        </section>
+        <app-about></app-about>
         <hr>
-        <section class="Contact">
-            <app-contact></app-contact>
-        </section>
+        <app-contact></app-contact>
     </div>
 </div>
 
