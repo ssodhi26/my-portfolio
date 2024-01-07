@@ -2,3 +2,24 @@
     color:bisque;
     text-align: center;
 }
+.container.intro{
+    width:75%;
+    margin-left:12%;
+    background-color: rgba(57, 56, 56, 0.662);
+    border-radius: 5px ;
+}
+.content{
+    padding:20px;
+}
+#welcome{
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.container.info{
+    border:1px solid;
+    padding:20px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
