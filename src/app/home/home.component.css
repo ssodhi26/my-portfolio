@@ -25,24 +25,11 @@
 {
   width: 75%;
   margin-left: 12%;
-  background-color: rgba(153, 6, 232, 0.757);
+  background-color: rgba(23, 22, 23, 0.493);
   overflow: auto;
   border-radius: 5px;
 }
-.navbar a {
-    float: left;
-    padding: 12px;
-    color: bisque;
-    text-decoration: none;
-    font-size: 17px;
-    width: 25%;
-    text-align: center;
-  }
-  .navbar a:hover {
-    background-color: rgba(159, 8, 240, 0.485);
-  }
-  
-  @media screen and (max-width: 500px) {
+@media screen and (max-width: 500px) {
     .navbar a {
       float: none;
       display: block;
@@ -50,9 +37,6 @@
       text-align: left;
     }
   }
-hr{
-    color:bisque;
-}
 img {
     border-radius: 50%;
     height:300px;

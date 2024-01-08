@@ -1,5 +1,24 @@
 <div class="container">
-<section class="About">
-    <p>I am a Web Developer experienced in developing applications for large enterprises.</p>
-</section>
+    <div class="row">
+        <div class="col-sm-4 sanofi">
+            <div class="tp-wrapper sanofi">
+                <div class="tp-box sanofi" (click)="toggleFlip1()" [@flipState]="flip">
+                    <div class="tp-box__side tp-box__front">Sanofi
+                    </div>
+                    <div class="tp-box__side tp-box__back">Back
+                    </div>
+                </div>
+            </div>  
+        </div>
+        <div class="col-sm-4 citi">
+            <div class="tp-wrapper citi">
+                <div class="tp-box citi">
+                    <div class="tp-box__side tp-box__front">CitiBank
+                    </div>
+                    <div class="tp-box__side tp-box__back">Back
+                    </div>
+                </div>
+            </div>  
+        </div>
+    </div>
 </div>

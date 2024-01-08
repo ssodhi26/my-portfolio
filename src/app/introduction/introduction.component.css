@@ -5,7 +5,6 @@
 .container.intro{
     width:75%;
     margin-left:12%;
-    background-color: rgba(57, 56, 56, 0.662);
     border-radius: 5px ;
 }
 .content{
@@ -18,8 +17,9 @@
     font-weight: bold;
 }
 .container.info{
-    border:1px solid;
-    padding:20px;
+    padding:30px;
     font-size: 20px;
     font-family: 'Times New Roman', Times, serif;
+    border-radius: 10px;
+    text-align: left;
 }

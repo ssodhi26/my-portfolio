@@ -9,6 +9,8 @@ import { ContactComponent } from './contact/contact.component';
 import { IntroductionComponent } from './introduction/introduction.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
+import {MatTabsModule} from '@angular/material/tabs';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -20,7 +22,9 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+  
+    MatTabsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

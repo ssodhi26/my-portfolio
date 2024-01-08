@@ -2,10 +2,58 @@
     <img src="/assets/images/display.jpeg">
     <p></p>
             <div class="navbar">
-                <a routerLink ="intro" routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}">Introduction</a> 
+                <mat-tab-group mat-stretch-tabs="false" backgroundColor="primary" color="accent">
+                <mat-tab label="Introduction">
+                    <app-introduction></app-introduction>
+                </mat-tab>
+                <mat-tab label="About">
+                    <app-about></app-about>
+                </mat-tab>
+                <mat-tab label="Contact">
+                    <app-contact></app-contact>
+                </mat-tab>
+              </mat-tab-group>
+               <!--<a routerLink ="intro" routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}">Introduction</a> 
                 <a routerLink ="about">About</a> 
-                <a routerLink ="contact">Contact</a> 
-            </div>
-    <router-outlet></router-outlet>
+                <a routerLink ="contact">Contact</a> -->
+            </div> 
+
+           
+    
 </div>
+
+<!--<mat-tab-group>
+    <mat-tab>
+      <ng-template mat-tab-label>
+        Page 1
+      </ng-template>
+      <h1>Content page 1</h1>
+      <mat-tab-group>
+        <mat-tab label="Tab 1"> Tab 1 </mat-tab>
+        <mat-tab label="Tab 2"> Tab 2 </mat-tab>
+        <mat-tab label="Tab 3"> Tab 3 </mat-tab>
+        <mat-tab label="Tab 4"> Tab 4 </mat-tab>
+        <mat-tab label="Tab 5"> Tab 5 </mat-tab>
+        <mat-tab label="Tab 6"> Tab 6 </mat-tab>
+        <mat-tab label="Tab 7"> Tab 7 </mat-tab>
+        <mat-tab label="Tab 8"> Tab 8 </mat-tab>
+      </mat-tab-group>
+    </mat-tab>
+    <mat-tab>
+      <ng-template mat-tab-label>
+        Page 2
+      </ng-template>
+      <h1>Content page 2</h1>
+      <mat-tab-group>
+        <mat-tab label="Tab 1"> Tab 1 </mat-tab>
+        <mat-tab label="Tab 2"> Tab 2 </mat-tab>
+        <mat-tab label="Tab 3"> Tab 3 </mat-tab>
+        <mat-tab label="Tab 4"> Tab 4 </mat-tab>
+        <mat-tab label="Tab 5"> Tab 5 </mat-tab>
+        <mat-tab label="Tab 6"> Tab 6 </mat-tab>
+        <mat-tab label="Tab 7"> Tab 7 </mat-tab>
+        <mat-tab label="Tab 8"> Tab 8 </mat-tab>
+      </mat-tab-group>
+    </mat-tab>
+  </mat-tab-group> -->
 
