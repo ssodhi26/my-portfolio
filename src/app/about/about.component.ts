@@ -31,14 +31,7 @@ import {
   ],
 })
 export class AboutComponent {
-  constructor() {}
-
-  ngOnInit() {}
-
-  flip: string = 'inactive';
-
-  toggleFlip1() {
-    this.flip = this.flip == 'inactive' ? 'active' : 'inactive';
-  }
+  
+  panelOpenState = false;
 
 }
