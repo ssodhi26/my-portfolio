@@ -11,6 +11,12 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import {MatTabsModule} from '@angular/material/tabs';
 import {MatExpansionModule} from '@angular/material/expansion'
+import { SkillsComponent } from './skills/skills.component';
+
+import {MatBottomSheetModule} from '@angular/material/bottom-sheet';
+import {MatButtonModule} from '@angular/material/button';
+import {MatDialogModule} from '@angular/material/dialog';
+import {MatListModule} from '@angular/material/list';
 
 @NgModule({
   declarations: [
@@ -18,7 +24,8 @@ import {MatExpansionModule} from '@angular/material/expansion'
     HomeComponent,
     AboutComponent,
     ContactComponent,
-    IntroductionComponent
+    IntroductionComponent,
+    SkillsComponent
   ],
   imports: [
     BrowserModule,
@@ -26,7 +33,11 @@ import {MatExpansionModule} from '@angular/material/expansion'
     BrowserAnimationsModule,
   
     MatTabsModule,
-    MatExpansionModule
+    MatExpansionModule,
+    MatBottomSheetModule,
+    MatButtonModule,
+    MatDialogModule,
+    MatListModule
   ],
   providers: [],
   bootstrap: [AppComponent]

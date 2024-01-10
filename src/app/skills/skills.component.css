@@ -1,0 +1,25 @@
+.Introduction{
+    color:white;
+    text-align: left;
+}
+.container.intro{
+    width:75%;
+    margin-left:12%;
+    border-radius: 5px ;
+}
+.content{
+    padding:20px;
+}
+#welcome{
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.container.info{
+    padding:30px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 10px;
+    text-align: left;
+}

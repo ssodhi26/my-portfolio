@@ -9,10 +9,14 @@
                 <mat-tab label="About">
                     <app-about></app-about>
                 </mat-tab>
-                <mat-tab label="Contact">
-                    <app-contact></app-contact>
+                <mat-tab label="Skills">
+                    <app-skills></app-skills>
                 </mat-tab>
               </mat-tab-group>
             </div>   
+
+            <footer class="contactMe" mat-dialog-actions align="center">
+                <button mat-raised-button (click)="openBottomSheet()">Contact Me!</button>
+            </footer>
 </div>
     
