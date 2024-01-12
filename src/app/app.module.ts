@@ -18,6 +18,8 @@ import {MatButtonModule} from '@angular/material/button';
 import {MatDialogModule} from '@angular/material/dialog';
 import {MatListModule} from '@angular/material/list';
 
+import { NgbModule, NgbCarouselModule } from '@ng-bootstrap/ng-bootstrap';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -37,7 +39,10 @@ import {MatListModule} from '@angular/material/list';
     MatBottomSheetModule,
     MatButtonModule,
     MatDialogModule,
-    MatListModule
+    MatListModule,
+
+    NgbModule,
+    NgbCarouselModule
   ],
   providers: [],
   bootstrap: [AppComponent]
