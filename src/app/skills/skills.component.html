@@ -1,9 +1,71 @@
 <ngb-carousel>
-    <ng-template ngbSlide *ngFor="let skill of skills">
+    <ng-template ngbSlide>
         <div class="carousel-wrapper">
-            <img src="assets/images/{{skill.name}}">
-            <div class="caption">{{skill.caption}}</div>
+            <div class="caption">
+                <p class="caption-heading">Frontend</p>
+				<p class="caption-desc">
+                    Angular,
+                    Vue.Js,
+                    HTML5,
+                    CSS3,
+                    TypeScript,
+                    JavaScript,
+                    Jquery,
+                    Handlebars.js,
+                    Bootstrap
+                </p>
+            </div>
         </div>
-
     </ng-template>
+
+    <ng-template ngbSlide>
+        <div class="carousel-wrapper">
+            <div class="caption">
+                <p class="caption-heading">Backend</p>
+				<p class="caption-desc">
+                    Java,
+                    Microservices,
+                    SpringBoot,
+                    RESTful APIs
+                </p>
+            </div>
+        </div>
+    </ng-template>
+
+    <ng-template ngbSlide>
+        <div class="carousel-wrapper">
+            <div class="caption">
+                <p class="caption-heading">Tools</p>
+				<p class="caption-desc">
+                    Jenkins, 
+                    Bitbucket,
+                    Jira,
+                    Confluence,
+                    Splunk,
+                    Postman,
+                    RedHat Openshift Enterprise,
+                    <br>
+                    Release Lifecycle Management (RLM),
+                    Integrated Content Management System (ICMS),
+                    Oracle SQL Developer
+                </p>
+            </div>
+        </div>
+    </ng-template>
+
+    <ng-template ngbSlide>
+        <div class="carousel-wrapper">
+            <div class="caption">
+                <p class="caption-heading">Other Skills & Methodologies</p>
+				<p class="caption-desc">
+                    Game Development (Unity, C#, Maya Modelling & Photoshop)
+                    <br>
+                    Agile Methodology
+                    <br>
+                </p>
+            </div>
+        </div>
+    </ng-template>
+
+
 </ngb-carousel>
