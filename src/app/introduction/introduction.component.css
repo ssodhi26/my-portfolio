@@ -1,17 +1,17 @@
 .Introduction{
-    color:white;
+    color: #76323F;
     text-align: left;
 }
 .container.intro{
     width:75%;
-    margin-left:12%;
+    margin-left:0%;
     border-radius: 5px ;
 }
 .content{
     padding:20px;
 }
 .container.info{
-    padding:30px;
+    padding-top:30px;
     font-size: 20px;
     font-family: 'Times New Roman', Times, serif;
     border-radius: 10px;

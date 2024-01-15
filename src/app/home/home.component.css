@@ -1,15 +1,10 @@
 .wrap{
-  background-size:cover;
   width: 100vw;
-  height: 100vh;
+  height: 80vh;
   overflow:auto;
-  -webkit-animation-name: background;
-  -webkit-animation-duration:5s;
-  -webkit-animation-direction: alternate;
-  -webkit-animation-timing-function: linear;
-  -webkit-animation-iteration-count: infinite;
+  background-color: #D7CEC7;
 }
-@-webkit-keyframes background {
+/*@-webkit-keyframes background {
     0% {
       background-image: url('/assets/images/image.jpeg');
     }
@@ -19,7 +14,7 @@
     100% {
       background-image: url('/assets/images/image2.jpeg');
     }
-  }
+  }*/
 .navbar
 {
   width: 75% !important;
@@ -31,18 +26,49 @@
 .displayPicture {
     border-radius: 50%;
     height:150px;
-    width: 150px;
+    width: 170px;
     display: block;
     margin-left: auto;
-    margin-right: auto;
+    margin-right: 20%;
     margin-top: 50px;
   }
   .mat-mdc-tab-group.mat-accent{
     width:100vw;
   }
-  .contactMe{
+  .mat-mdc-tab-group.mat-background-primary, .mat-mdc-tab-nav-bar.mat-background-primary {
+    --mat-tab-header-with-background-background-color: #D7CEC7!important;
+    --mat-tab-header-with-background-foreground-color: #76323F;
+}
+
+.mat-mdc-tab.mdc-tab--active .mdc-tab__text-label {
+  color: #76323F !important;
+}
+
+.mat-mdc-tab-group.mat-accent, .mat-mdc-tab-nav-bar.mat-accent {
+  --mdc-tab-indicator-active-indicator-color: #76323F !important
+}
+
+.contactMe{
     margin-top: 10px;
   }
-  .mat-mdc-raised-button:not(:disabled) {
-    background-color: rgb(233, 192, 255) !important;
+.mat-mdc-raised-button:not(:disabled) {
+    background-color: #C09F80 !important;
+    color: #76323F !important;
+}
+
+.mat-bottom-sheet-container-xlarge, .mat-bottom-sheet-container-large, .mat-bottom-sheet-container-medium {
+  background-color: #C09F80!important;
+}
+
+.image{
+  height: 240px;
+  width: 100vw;
+  background-size:cover;
+  overflow: auto;
+  background-color: #C09F80;
+  -webkit-animation-name: background;
+  -webkit-animation-duration:5s;
+  -webkit-animation-direction: alternate;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
 }
