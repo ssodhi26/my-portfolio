@@ -2,7 +2,7 @@
   width: 100vw;
   height: 80vh;
   overflow:auto;
-  background-color: #D7CEC7;
+  background-color: #1B2240;
 }
 /*@-webkit-keyframes background {
     0% {
@@ -17,10 +17,10 @@
   }*/
 .navbar
 {
-  width: 75% !important;
-  margin-left: 12%;
+  width: 100% !important;
   overflow: auto;
   border-radius: 5px;
+  --bs-navbar-padding-y: 0;
 }
 
 .displayPicture {
@@ -29,46 +29,73 @@
     width: 170px;
     display: block;
     margin-left: auto;
-    margin-right: 20%;
-    margin-top: 50px;
+    margin-top: 15px;
   }
   .mat-mdc-tab-group.mat-accent{
     width:100vw;
   }
   .mat-mdc-tab-group.mat-background-primary, .mat-mdc-tab-nav-bar.mat-background-primary {
-    --mat-tab-header-with-background-background-color: #D7CEC7!important;
-    --mat-tab-header-with-background-foreground-color: #76323F;
+    --mat-tab-header-with-background-background-color: #383f56!important;
+    --mat-tab-header-with-background-foreground-color: #efeff1;
 }
 
 .mat-mdc-tab.mdc-tab--active .mdc-tab__text-label {
-  color: #76323F !important;
+  color: #ad9bf6 !important;
 }
 
 .mat-mdc-tab-group.mat-accent, .mat-mdc-tab-nav-bar.mat-accent {
-  --mdc-tab-indicator-active-indicator-color: #76323F !important
+  --mdc-tab-indicator-active-indicator-color: #ad9bf6 !important;
+  --mat-tab-header-active-focus-indicator-color: #ad9bf6;
 }
 
 .contactMe{
     margin-top: 10px;
   }
 .mat-mdc-raised-button:not(:disabled) {
-    background-color: #C09F80 !important;
-    color: #76323F !important;
+    background-color: #ad9bf6 !important;
+    color: #080f30 !important;
+    text-transform: uppercase;
+    font-family: "Roboto","Calibri","Arial",sans-serif;
 }
 
 .mat-bottom-sheet-container-xlarge, .mat-bottom-sheet-container-large, .mat-bottom-sheet-container-medium {
-  background-color: #C09F80!important;
+  background-color: #080f30!important;
+}
+
+.mdc-list-item__primary-text {
+  color: #efeff1 !important;
+}
+.mdc-list-item__secondary-text {
+  color: #efeff1 !important;
 }
 
 .image{
-  height: 240px;
+  display: flex;
+  flex-direction: row;
+  height: 180px;
   width: 100vw;
   background-size:cover;
   overflow: auto;
-  background-color: #C09F80;
+  background-color: #060F2F;
+  justify-content: center;
   -webkit-animation-name: background;
   -webkit-animation-duration:5s;
   -webkit-animation-direction: alternate;
   -webkit-animation-timing-function: linear;
   -webkit-animation-iteration-count: infinite;
+}
+
+.headline{
+  color: #ad9bf6;
+  font-family: "Roboto","Calibri","Arial",sans-serif;
+  font-size: 5em;
+  font-weight: 50px;
+  padding-top:80px;
+}
+
+.row > * {
+  width: unset;
+}
+.col-xs-6.pic{
+  padding-left: 30px;
 }

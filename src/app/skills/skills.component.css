@@ -5,13 +5,14 @@
 }
 .caption{
     position: absolute;
-    top: 0px;
-	left: 0;
+    top: 40px;
+	left: 40px;
 	bottom: 0;
-	right: 0;
+	right: 40px;
     font-weight: bold;
-    color: black;
+    color: #efeff1;
     text-align: center;
+    background-image: url('/assets/images/frontend.jpeg');
     
 }
 .caption-heading{
