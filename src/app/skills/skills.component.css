@@ -1,20 +1,60 @@
 .carousel-wrapper{
-    width: 500px;
+    width: 100vw;
     height: 500px;
     overflow: hidden;
-}
-.caption{
-    position: absolute;
-    top: 40px;
-	left: 40px;
-	bottom: 0;
-	right: 40px;
-    font-weight: bold;
+    position:relative;
+    font-family: "Roboto","Calibri","Arial",sans-serif;
     color: #efeff1;
-    text-align: center;
-    background-image: url('/assets/images/frontend.jpeg');
-    
+    background-repeat:no-repeat;
+    word-wrap: break-word;
+    font-size: 1.5em;
+    font-weight: 500;
+    line-height: 1.5;
+    .caption{
+        position: absolute;
+        text-align: center;
+        bottom: 50px;
+        right: 20%; 
+    }
+    .caption1{
+        position: absolute;
+        text-align: center;
+        bottom: 50px;
+        right: 35%;
+    }
+    .caption2{
+        position: absolute;
+        text-align: center;
+        bottom: 50px;
+        right: 20%;
+    }
+    .caption3{
+        position: absolute;
+        text-align: center;
+        bottom: 50px;
+        right: 30%;
+    }
 }
+.carouselImg{
+    width:100vw !important;
+    height:100vh !important;
+    opacity: 0.45;
+    padding: 50px;
+}
+.carouselImg1{
+    width:100vw !important;
+    height:100vh !important;
+    opacity: 0.35;
+    padding: 50px;
+}
+.carouselImg2{
+    opacity: 0.35;
+    justify-content: center;
+    width:100vw !important;
+    height:100vh !important;
+    padding: 50px;
+}
+
 .caption-heading{
     font-size: 40px;
     padding-top:20%;
