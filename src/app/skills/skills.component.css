@@ -59,9 +59,77 @@
     font-size: 40px;
     padding-top:20%;
 }
-caption-desc{
+.caption-desc{
     text-align: center;
-    padding-top: 80px;
     font-size: 20px;
     text-wrap: wrap;
 }
+
+/* Adding Media queries for smaller screens sizes */
+/* Media queries start */
+
+@media screen and (min-width: 950px) and (max-width: 1200px) {
+    .caption{
+        right: 10% !important; 
+    }
+    .caption1{
+        right: 25% !important; 
+    }
+    .caption2{
+        right: 10% !important; 
+    }
+    .caption3{
+        right: 20% !important; 
+    }
+  }
+
+  @media screen and (min-width: 901px) and (max-width: 949px) {
+    .caption{
+        left: 15% !important; 
+    }
+    .caption1{
+        right: 25% !important; 
+    }
+    .caption2{
+        left: 15% !important;
+    }
+    .caption3{
+        right: 20% !important; 
+    }
+  }
+
+  @media screen and (min-width: 775px) and (max-width: 900px) {
+    .caption{
+        left: 15% !important; 
+    }
+    .caption1{
+        right: 25% !important; 
+    }
+    .caption2{
+        left: 18% !important;
+    }
+    .caption3{
+        right: 16% !important; 
+    }
+  }
+
+  @media screen and (min-width: 150px) and (max-width: 774px) {
+    .caption{
+        left: 15% !important; 
+    }
+    .caption1{
+        left: 30% !important; 
+    }
+    .caption2{
+        left: 18% !important;
+    }
+    .caption3{
+        left: 30% !important; 
+    }
+    .caption-heading{
+        font-size: 16px;
+    }
+    .caption-desc{
+        font-size: 14px;
+    }
+  }

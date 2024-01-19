@@ -4,17 +4,6 @@
   overflow:auto;
   background-color: #1B2240;
 }
-/*@-webkit-keyframes background {
-    0% {
-      background-image: url('/assets/images/image.jpeg');
-    }
-    50% {
-      background-image: url('/assets/images/image1.jpeg');
-    }
-    100% {
-      background-image: url('/assets/images/image2.jpeg');
-    }
-  }*/
 .navbar
 {
   width: 100% !important;
@@ -58,7 +47,7 @@
     font-family: "Roboto","Calibri","Arial",sans-serif;
 }
 
-.mat-bottom-sheet-container-xlarge, .mat-bottom-sheet-container-large, .mat-bottom-sheet-container-medium {
+.mat-bottom-sheet-container {
   background-color: #080f30!important;
 }
 
@@ -78,11 +67,6 @@
   overflow: auto;
   background-color: #060F2F;
   justify-content: center;
-  -webkit-animation-name: background;
-  -webkit-animation-duration:5s;
-  -webkit-animation-direction: alternate;
-  -webkit-animation-timing-function: linear;
-  -webkit-animation-iteration-count: infinite;
 }
 
 .headline{
@@ -99,3 +83,41 @@
 .col-xs-6.pic{
   padding-left: 30px;
 }
+
+/* Adding Media queries for smaller screens sizes */
+/* Media queries start */
+
+@media screen and (min-width: 500px) and (max-width: 700px) {
+  .headline{
+    font-size: 3.5em;
+  }
+  .displayPicture {
+    height: 100px;
+    width: 100px;
+    margin-top: 50px;
+  }
+}
+
+@media screen and (min-width: 400px) and (max-width: 499px) {
+  .headline{
+    font-size: 2.5em;
+  }
+  .displayPicture {
+    height: 100px;
+    width: 100px;
+    margin-top: 50px;
+  }
+}
+
+@media screen and (max-width: 399px) {
+  .displayPicture {
+    height: 100px;
+    width: 100px;
+  }
+  .headline{
+    padding-top:40px;
+    font-size: 2.5em;
+  }
+}
+
+/* Media queries end */
