@@ -13,25 +13,25 @@
     .caption{
         position: absolute;
         text-align: center;
-        bottom: 50px;
+        bottom: 40%;
         right: 20%; 
     }
     .caption1{
         position: absolute;
         text-align: center;
-        bottom: 50px;
+        bottom: 40%;
         right: 35%;
     }
     .caption2{
         position: absolute;
         text-align: center;
-        bottom: 50px;
+        bottom: 40%;
         right: 20%;
     }
     .caption3{
         position: absolute;
         text-align: center;
-        bottom: 50px;
+        bottom: 40%;
         right: 30%;
     }
 }
@@ -70,16 +70,16 @@
 
 @media screen and (min-width: 950px) and (max-width: 1200px) {
     .caption{
-        right: 10% !important; 
+        left: 20% !important; 
     }
     .caption1{
         right: 25% !important; 
     }
     .caption2{
-        right: 10% !important; 
+        right: 15% !important; 
     }
     .caption3{
-        right: 20% !important; 
+        right: 25% !important; 
     }
   }
 
@@ -122,9 +122,11 @@
     }
     .caption2{
         left: 18% !important;
+        bottom: 20% !important;
     }
     .caption3{
         left: 30% !important; 
+        bottom: 25% !important;
     }
     .caption-heading{
         font-size: 10px;

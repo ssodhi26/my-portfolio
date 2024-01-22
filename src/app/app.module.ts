@@ -17,8 +17,10 @@ import {MatBottomSheetModule} from '@angular/material/bottom-sheet';
 import {MatButtonModule} from '@angular/material/button';
 import {MatDialogModule} from '@angular/material/dialog';
 import {MatListModule} from '@angular/material/list';
+import {MatIconModule} from '@angular/material/icon';
 
 import { NgbModule, NgbCarouselModule } from '@ng-bootstrap/ng-bootstrap';
+
 
 @NgModule({
   declarations: [
@@ -40,9 +42,10 @@ import { NgbModule, NgbCarouselModule } from '@ng-bootstrap/ng-bootstrap';
     MatButtonModule,
     MatDialogModule,
     MatListModule,
+    MatIconModule,
 
     NgbModule,
-    NgbCarouselModule
+    NgbCarouselModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

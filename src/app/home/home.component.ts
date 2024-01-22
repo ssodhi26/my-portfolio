@@ -1,7 +1,6 @@
 import { Component, ViewEncapsulation } from '@angular/core';
 import {Router, ActivatedRoute} from '@angular/router';
 
-
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
@@ -11,7 +10,7 @@ import {Router, ActivatedRoute} from '@angular/router';
 export class HomeComponent {
   constructor(
     private router: Router,
-    private route: ActivatedRoute,
+    private route: ActivatedRoute
     
   ){
     this.router.navigate(['intro']);
