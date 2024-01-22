@@ -107,18 +107,22 @@
     }
     .caption2{
         left: 18% !important;
+        bottom: 20% !important;
     }
     .caption3{
         right: 16% !important; 
+        bottom: 30% !important;
     }
   }
 
   @media screen and (min-width: 150px) and (max-width: 774px) {
     .caption{
         left: 15% !important; 
+        bottom: 25% !important;
     }
     .caption1{
         left: 35% !important; 
+        bottom: 25% !important;
     }
     .caption2{
         left: 18% !important;
