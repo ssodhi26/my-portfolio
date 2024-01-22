@@ -1,6 +1,6 @@
 .carousel-wrapper{
-    width: 100vw;
-    height: 500px;
+    width: 100%;
+    height: auto;
     overflow: hidden;
     position:relative;
     font-family: "Roboto","Calibri","Arial",sans-serif;
@@ -36,22 +36,22 @@
     }
 }
 .carouselImg{
-    width:100vw !important;
-    height:100vh !important;
+    width:100% !important;
+    height:auto !important;
     opacity: 0.45;
     padding: 50px;
 }
 .carouselImg1{
-    width:100vw !important;
-    height:100vh !important;
+    width:100% !important;
+    height:auto !important;
     opacity: 0.35;
     padding: 50px;
 }
 .carouselImg2{
     opacity: 0.35;
     justify-content: center;
-    width:100vw !important;
-    height:100vh !important;
+    width:100% !important;
+    height:auto !important;
     padding: 50px;
 }
 

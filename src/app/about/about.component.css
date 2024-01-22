@@ -187,7 +187,8 @@ body{
 }
 
 .main-timeline .description {
-  margin-bottom: 0
+  margin-bottom: 0;
+  padding-left: 15px;
 }
 
 .main-timeline .timeline:nth-child(2n) .date-content {
@@ -256,7 +257,7 @@ body{
       top: 30%
   }
   .main-timeline .year {
-      font-size: 24px
+      font-size: 14px
   }
   .main-timeline .timeline-content,
   .main-timeline .timeline:nth-child(2n) .timeline-content {
@@ -265,6 +266,7 @@ body{
       padding: 10px 0
   }
   .main-timeline .title {
-      margin-bottom: 10px
+      margin-bottom: 10px;
+      padding-left: 15px;
   }
 }
