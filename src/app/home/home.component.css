@@ -107,6 +107,9 @@
     width: 100px;
     margin-top: 50px;
   }
+  .contactMe{
+    margin-top: 20px;
+  }
 }
 
 @media screen and (max-width: 399px) {
@@ -117,6 +120,9 @@
   .headline{
     padding-top:40px;
     font-size: 2.5em;
+  }
+  .contactMe{
+    margin-top: 20px;
   }
 }
 
